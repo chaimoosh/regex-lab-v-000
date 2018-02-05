@@ -1,6 +1,10 @@
 require 'pry'
 def starts_with_a_vowel?(word)
+<<<<<<< HEAD
  !!word.match(/^[AEIOUaeiou]/)
+=======
+ !!(word.match(/^[AEIOUaeiou]/))
+>>>>>>> 4bafe6e924ff65bbee4c272fedf0d8e224276815
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
